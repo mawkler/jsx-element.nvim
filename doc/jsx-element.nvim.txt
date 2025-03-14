@@ -5,6 +5,7 @@ Table of Contents                         *jsx-element.nvim-table-of-contents*
 
 1. jsx-element.nvim                        |jsx-element.nvim-jsx-element.nvim|
   - Usage                            |jsx-element.nvim-jsx-element.nvim-usage|
+  - Installation              |jsx-element.nvim-jsx-element.nvim-installation|
   - Configuration            |jsx-element.nvim-jsx-element.nvim-configuration|
 
 ==============================================================================
@@ -35,6 +36,20 @@ It also works with paired elements:
     <Button variant="text">This is a button</Button>
                            ╰───── it ─────╯
     ╰───────────────────── at ─────────────────────╯
+<
+
+
+INSTALLATION                  *jsx-element.nvim-jsx-element.nvim-installation*
+
+With lazy.nvim <https://github.com/folke/lazy.nvim>:
+
+>lua
+    {
+      'mawkler/jsx-element.nvim',
+      dependencies = 'nvim-treesitter/nvim-treesitter',
+      ft = { 'typescriptreact', 'javascriptreact', 'javascript' },
+      opts = {},
+    }
 <
 
 
