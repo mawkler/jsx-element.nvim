@@ -1,6 +1,6 @@
 # jsx-element.nvim
 
-JSX/TSX text-objects and motions.
+JSX/TSX text-objects and motions using Treesitter.
 
 I'm sorry that you're here because that means that you also have to work in React.
 
