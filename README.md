@@ -24,6 +24,19 @@ It also works with paired elements:
 ╰───────────────────── at ─────────────────────╯
 ```
 
+## Installation
+
+With [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{
+  'mawkler/jsx-element.nvim',
+  dependencies = 'nvim-treesitter/nvim-treesitter',
+  ft = { 'typescriptreact', 'javascriptreact', 'javascript' },
+  opts = {},
+}
+```
+
 ## Configuration
 
 Default configuration:
