@@ -21,7 +21,7 @@ It also works with paired elements:
 ```
 <Button variant="text">This is a button</Button>
                        ╰───── it ─────╯
-╰────────────── at ────────────────╯
+╰───────────────────── at ─────────────────────╯
 ```
 
 ## Configuration
