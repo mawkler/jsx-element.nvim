@@ -11,7 +11,7 @@ Table of Contents                         *jsx-element.nvim-table-of-contents*
 ==============================================================================
 1. jsx-element.nvim                        *jsx-element.nvim-jsx-element.nvim*
 
-JSX/TSX text-objects and motions.
+JSX/TSX text-objects and motions using Treesitter.
 
 I’m sorry that you’re here because that means that you also have to work in
 React.
