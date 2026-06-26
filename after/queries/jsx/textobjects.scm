@@ -7,7 +7,7 @@
   (_) @_start
   (_)* @_end
   .
-  (#make-range! "jsx_element.inner" @_start @_end)) @jsx_element.outer
+  (#set! "jsx_element.inner" @_start @_end)) @jsx_element.outer
 
 ; Paired tags
 (jsx_element
@@ -17,4 +17,4 @@
   (_)* @_end
   .
   close_tag: (_)
-  (#make-range! "jsx_element.inner" @_start @_end)) @jsx_element.outer
+  (#set! "jsx_element.inner" @_start @_end)) @jsx_element.outer
